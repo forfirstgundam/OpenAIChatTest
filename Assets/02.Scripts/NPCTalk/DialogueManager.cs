@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour
 
         // 5. 백로그 저장
         backlogUI.AddToBacklog("당신", userInput);
-        backlogUI.AddToBacklog("미사키", npcResponse.ReplyMessage);
+        backlogUI.AddToBacklog("미나", npcResponse.ReplyMessage);
 
         return npcResponse;
     }

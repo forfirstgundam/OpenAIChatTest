@@ -17,6 +17,7 @@ public class DialogueUI : MonoBehaviour
 
         var response = await DialogueManager.Instance.SendDialogue(input);
 
+        _speakerTextUI.text = "미나";
         _speechTextUI.text = response.ReplyMessage;
 
         _inputFieldTextUI.text = "";
