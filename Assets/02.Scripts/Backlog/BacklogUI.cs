@@ -23,6 +23,11 @@ public class BacklogUI : MonoBehaviour
     {
         _backlogOn = !_backlogOn;
         _backlogHolder.SetActive(_backlogOn);
+
+        if (_backlogOn)
+        {
+            RefreshBacklogUI();
+        }
     }
 
     public void AddToBacklog(string speaker, string message)
