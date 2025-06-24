@@ -16,13 +16,13 @@ public enum Emotion
 
 public class DialogueLine
 {
-    public string Speaker;
-    public string Speech;
+    public string Speaker { get; }
+    public string Message { get; }
 
-    public DialogueLine(string speaker, string speech)
+    public DialogueLine(string speaker, string message)
     {
         Speaker = speaker;
-        Speech = speech;
+        Message = message;
     }
 }
 
