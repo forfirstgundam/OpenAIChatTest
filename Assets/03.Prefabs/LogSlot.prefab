@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 1900951113776109908}
   - component: {fileID: 1244817150230018578}
   - component: {fileID: 5185374821240692734}
+  - component: {fileID: -4877172174207423598}
   - component: {fileID: 1584810940984516384}
   - component: {fileID: 270038074833719316}
   m_Layer: 5
@@ -354,6 +355,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-4877172174207423598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9142864235528819234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bea3346f24c0974c804d8339c5afb19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeakerTextUI: {fileID: 4901662607847204722}
+  SpeechTextUI: {fileID: 241208487400119007}
 --- !u!114 &1584810940984516384
 MonoBehaviour:
   m_ObjectHideFlags: 0

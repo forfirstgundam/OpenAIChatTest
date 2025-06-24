@@ -20,12 +20,11 @@ public class ChatGPTTest : MonoBehaviour
 
     private List<Message> _conversationHistory;
 
-    private const string OPENAI_API_KEY = "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";
-
+    
     private void Start()
     {
         // 1.API 클라이언트 초기화
-        api = new OpenAIClient(OPENAI_API_KEY);
+        api = new OpenAIClient(API_KEY.OPENAI_API_KEY);
         _conversationHistory = new List<Message>();
 
         // CHAT-F
