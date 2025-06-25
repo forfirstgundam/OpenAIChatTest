@@ -38,3 +38,9 @@
 ![스크린샷(86)](https://github.com/user-attachments/assets/659a1b56-b8b9-49ad-8339-c71e2d661daf)
 ![스크린샷(87)](https://github.com/user-attachments/assets/2e15f490-8a7e-4615-8567-7e077df2fbc0)
 ![스크린샷(88)](https://github.com/user-attachments/assets/71414bbf-dfba-4025-bf67-451e150f6328)
+
+
+# To Do
+- 엔딩 전환 필요
+- 오프닝, 엔딩 씬 만들기
+- 이벤트 트리거
