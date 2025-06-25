@@ -1829,8 +1829,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: -50}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchoredPosition: {x: -35, y: -50}
+  m_SizeDelta: {x: -30, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408238937
 MonoBehaviour:
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCE90\uB9AD\uD130 \uC774\uB984"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 115fefc161aa8e045a58f8ebd6a4bd74, type: 2}
   m_sharedMaterial: {fileID: -8906882995398763912, guid: 115fefc161aa8e045a58f8ebd6a4bd74, type: 2}
@@ -2140,9 +2140,25 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: ccce5e152cb0be54e9e52756a5febb7f, type: 3}
   - emotion: 13
     sprite: {fileID: 21300000, guid: 477d8c74d56ab9a409b79a6fd0b82864, type: 3}
+  _locationSprites:
+  - location: 0
+    sprite: {fileID: 21300000, guid: d1597dbc5098fc84898a374fb2daede4, type: 3}
+  - location: 1
+    sprite: {fileID: 21300000, guid: cef27d00610fe1d47b12898655148590, type: 3}
+  - location: 2
+    sprite: {fileID: 21300000, guid: d2e73cf2ef547e2458baf13e77c198a6, type: 3}
+  - location: 3
+    sprite: {fileID: 21300000, guid: e136f1fa025ab3044b4b2192b1da75e9, type: 3}
+  - location: 4
+    sprite: {fileID: 21300000, guid: c933713559cadf0439d22feb23f27a6f, type: 3}
+  - location: 5
+    sprite: {fileID: 21300000, guid: cd87a7bd668613c43936d0f498383245, type: 3}
+  - location: 6
+    sprite: {fileID: 21300000, guid: d0568f86d0a7c104a8919bc0d0fb7256, type: 3}
   _speakerTextUI: {fileID: 1408238937}
   _speechTextUI: {fileID: 1654153142}
   _characterStandingUI: {fileID: 647019191}
+  _backgroundUI: {fileID: 0}
   _inputFieldTextUI: {fileID: 1295525344}
 --- !u!4 &1627138304
 Transform:
@@ -2206,8 +2222,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20, y: 10}
-  m_SizeDelta: {x: 0, y: -200}
+  m_AnchoredPosition: {x: -35, y: 10}
+  m_SizeDelta: {x: -30, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654153142
 MonoBehaviour:
@@ -2229,8 +2245,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCE90\uB9AD\uD130 \uB300\uC0AC \uCE90\uB9AD\uD130 \uB300\uC0AC  \uCE90\uB9AD\uD130
-    \uB300\uC0AC  \uCE90\uB9AD\uD130 \uB300\uC0AC "
+  m_text: "\uC77C\uC8FC\uC77C \uC804, \uC804\uC7C1\uC774 \uC77C\uC5B4\uB098\uACE0
+    \uB9D0\uC558\uC2B5\uB2C8\uB2E4.\n\uB2F9\uC2E0\uC740 \uD55C \uB3D9\uAE09\uC0DD
+    \uBBF8\uB098\uC640 \uD559\uAD50\uC5D0 \uACE0\uB9BD\uB418\uC5C8\uC2B5\uB2C8\uB2E4.\n\uC57D\uAC04
+    \uC774\uC0C1\uD55C \uB4EF\uD55C \uBBF8\uB098\uC640 \uD568\uAED8 \uC0DD\uC874\uD560
+    \uBC29\uBC95\uC744 \uCC3E\uC544\uBCF4\uC2ED\uC2DC\uC624."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 115fefc161aa8e045a58f8ebd6a4bd74, type: 2}
   m_sharedMaterial: {fileID: -8906882995398763912, guid: 115fefc161aa8e045a58f8ebd6a4bd74, type: 2}

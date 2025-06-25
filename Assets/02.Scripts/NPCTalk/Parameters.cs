@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public enum Emotion
 {
@@ -21,10 +22,29 @@ public enum Emotion
     glowing_eyes,
 }
 
-[System.Serializable]
+[Serializable]
 public class EmotionSprite
 {
     public Emotion emotion;
+    public Sprite sprite;
+}
+
+public enum Location
+{
+    hallway,
+    classroom,
+    gym,
+    rooftop,
+    schoolyard,
+    school_outdoor,
+    councilroom,
+}
+
+
+[Serializable]
+public class LocationSprite
+{
+    public Location location;
     public Sprite sprite;
 }
 
@@ -40,7 +60,7 @@ public class DialogueLine
     }
 }
 
-public class GirlResponse : MonoBehaviour
+public class Parameters : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

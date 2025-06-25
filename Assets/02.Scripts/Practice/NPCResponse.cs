@@ -11,4 +11,7 @@ public class NPCResponse
 
     [JsonProperty("Emotion")]
     public string Emotion { get; set; }
+
+    [JsonProperty("Location")]
+    public string Location { get; set; }
 }
