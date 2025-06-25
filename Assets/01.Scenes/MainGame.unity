@@ -944,7 +944,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
+    m_Top: -100
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 10
@@ -2103,7 +2103,7 @@ Transform:
   m_GameObject: {fileID: 1435188866}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4005194, y: -1.3198619, z: 100.64139}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2260,6 +2260,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466270340}
   m_CullTransparentMesh: 1
+--- !u!1 &1474893853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474893855}
+  - component: {fileID: 1474893854}
+  m_Layer: 0
+  m_Name: Affection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1474893854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474893853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea170da3289625a41b84a5640925032f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1474893855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474893853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1627138302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,6 +2380,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: d0568f86d0a7c104a8919bc0d0fb7256, type: 3}
   _speakerTextUI: {fileID: 1408238937}
   _speechTextUI: {fileID: 1654153142}
+  _appearanceTextUI: {fileID: 1466270342}
   _characterStandingUI: {fileID: 647019191}
   _backgroundUI: {fileID: 2138062739}
   _inputFieldTextUI: {fileID: 1295525344}
@@ -2853,3 +2898,4 @@ SceneRoots:
   - {fileID: 1627138304}
   - {fileID: 1038246848}
   - {fileID: 1435188867}
+  - {fileID: 1474893855}

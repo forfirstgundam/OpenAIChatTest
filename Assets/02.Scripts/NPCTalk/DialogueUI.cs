@@ -10,6 +10,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private List<LocationSprite> _locationSprites;
     [SerializeField] private TextMeshProUGUI _speakerTextUI;
     [SerializeField] private TextMeshProUGUI _speechTextUI;
+    [SerializeField] private TextMeshProUGUI _appearanceTextUI;
     [SerializeField] private Image _characterStandingUI;
     [SerializeField] private Image _backgroundUI;
 
@@ -42,6 +43,7 @@ public class DialogueUI : MonoBehaviour
 
         _speakerTextUI.text = "미나";
         _speechTextUI.text = response.ReplyMessage;
+        _appearanceTextUI.text = response.Appearance;
 
         // 스탠딩cg 수정
         if (System.Enum.TryParse(response.Emotion, ignoreCase: true, out Emotion emotion))
@@ -98,5 +100,4 @@ public class DialogueUI : MonoBehaviour
     {
         _inputFieldTextUI.SetActive(!isLocked);
     }
-
 }

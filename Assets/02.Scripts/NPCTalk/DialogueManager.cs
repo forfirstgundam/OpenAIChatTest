@@ -38,6 +38,9 @@ public class DialogueManager : MonoBehaviour
         var gptMessage = response.FirstChoice.Message;
         messages.Add(gptMessage);
 
+        // 4-1. 호감도 반영
+        AffectionSystem.Instance.ChangeAffection(npcResponse.AffectionDelta);
+
         // 5. 백로그 저장
         backlogUI.AddToBacklog("당신", userInput);
         backlogUI.AddToBacklog("미나", npcResponse.ReplyMessage);
