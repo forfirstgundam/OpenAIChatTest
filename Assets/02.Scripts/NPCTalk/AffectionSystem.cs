@@ -4,7 +4,7 @@ public class AffectionSystem : MonoBehaviour
 {
     public static AffectionSystem Instance;
 
-    private int _affection; // 현재 호감도
+    private int _affection;
 
     public int Affection => _affection;
 

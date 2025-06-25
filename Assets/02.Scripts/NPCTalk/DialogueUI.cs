@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Utilities.Extensions;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -35,6 +36,8 @@ public class DialogueUI : MonoBehaviour
         var input = _inputFieldTextUI.text;
         if (string.IsNullOrWhiteSpace(input)) return;
 
+        SetInputLock(true);
+
         var response = await DialogueManager.Instance.SendDialogue(input);
 
         _speakerTextUI.text = "미나";
@@ -62,6 +65,8 @@ public class DialogueUI : MonoBehaviour
             SetLocation(Location.hallway);
         }
 
+        SetInputLock(false);
+
         _inputFieldTextUI.text = "";
     }
 
@@ -88,4 +93,10 @@ public class DialogueUI : MonoBehaviour
             Debug.LogWarning($"[Location] Sprite not found for emotion: {location}");
         }
     }
+
+    private void SetInputLock(bool isLocked)
+    {
+        _inputFieldTextUI.SetActive(!isLocked);
+    }
+
 }
