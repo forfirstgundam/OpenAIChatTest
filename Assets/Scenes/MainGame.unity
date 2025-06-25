@@ -2111,6 +2111,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38acbb5124aa1974aa67bb36a3551cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _emotionSprites:
+  - emotion: 0
+    sprite: {fileID: 21300000, guid: 3f5f3efb8ddd7ad47ae4e3001ceb65ba, type: 3}
+  - emotion: 1
+    sprite: {fileID: 21300000, guid: c743d4fc5676dbc4d8ff9ad887de7574, type: 3}
+  - emotion: 2
+    sprite: {fileID: 21300000, guid: 0d6ab4a2bb7feb94c9b7e6013d943ee4, type: 3}
+  - emotion: 3
+    sprite: {fileID: 21300000, guid: d6b6cc23f5a27504b82faea7e66f5681, type: 3}
+  - emotion: 4
+    sprite: {fileID: 21300000, guid: 73aa504d77f527a42849b0ed52c7fd34, type: 3}
+  - emotion: 5
+    sprite: {fileID: 21300000, guid: 55d965352a706f44b85cda40d5b28bed, type: 3}
+  - emotion: 6
+    sprite: {fileID: 21300000, guid: 3553d0fdc8b33314184ddd80c4cceccd, type: 3}
+  - emotion: 7
+    sprite: {fileID: 21300000, guid: cfc118eb8286a7c40bdc1e87b41c03e1, type: 3}
+  - emotion: 8
+    sprite: {fileID: 21300000, guid: ec2add5b50a216843a77f43d2ed947fd, type: 3}
+  - emotion: 9
+    sprite: {fileID: 21300000, guid: 8e35f0f8fd8bd7944beee728184b7ee1, type: 3}
+  - emotion: 10
+    sprite: {fileID: 21300000, guid: 2d797497296723143ba1047890868572, type: 3}
+  - emotion: 11
+    sprite: {fileID: 21300000, guid: e70d8675152ea764f926e22b78bcc5d3, type: 3}
+  - emotion: 12
+    sprite: {fileID: 21300000, guid: ccce5e152cb0be54e9e52756a5febb7f, type: 3}
+  - emotion: 13
+    sprite: {fileID: 21300000, guid: 477d8c74d56ab9a409b79a6fd0b82864, type: 3}
   _speakerTextUI: {fileID: 1408238937}
   _speechTextUI: {fileID: 1654153142}
   _characterStandingUI: {fileID: 647019191}
@@ -2590,14 +2619,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: d1597dbc5098fc84898a374fb2daede4, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

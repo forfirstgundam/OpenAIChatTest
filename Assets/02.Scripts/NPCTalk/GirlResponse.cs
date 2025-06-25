@@ -2,16 +2,30 @@ using UnityEngine;
 
 public enum Emotion
 {
-    Neutral,
-    Happy,
-    Sad,
-    Angry,
-    Scared,
-    Surprised,
-    Disgusted,
-    Confused,
-    Affectionate,
-    Yandere
+    neutral,
+    smile,
+    happy,
+    blush,
+    ecstasy,
+    strong_ecstasy,
+    bored,
+    suspicious,
+    disgust,
+    strong_disgust,
+    surprised,
+    crying,
+    
+
+    // 특수 상황
+    injured,
+    glowing_eyes,
+}
+
+[System.Serializable]
+public class EmotionSprite
+{
+    public Emotion emotion;
+    public Sprite sprite;
 }
 
 public class DialogueLine

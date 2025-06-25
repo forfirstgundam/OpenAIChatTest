@@ -11,7 +11,4 @@ public class NPCResponse
 
     [JsonProperty("Emotion")]
     public string Emotion { get; set; }
-
-    [JsonProperty("StoryImageDescription")]
-    public string StoryImageDescription { get; set; }
 }

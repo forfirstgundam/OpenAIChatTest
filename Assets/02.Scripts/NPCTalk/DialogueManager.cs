@@ -42,6 +42,8 @@ public class DialogueManager : MonoBehaviour
         backlogUI.AddToBacklog("당신", userInput);
         backlogUI.AddToBacklog("미나", npcResponse.ReplyMessage);
 
+        Debug.Log(gptMessage);
+
         return npcResponse;
     }
 }
